@@ -189,20 +189,6 @@
               </span>
 
           
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus：</span>
-    
-    <a title="disqus" href="/2020/09/18/%E5%8F%91%E5%B8%83%E7%AC%AC%E4%B8%80%E7%AF%87%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/09/18/发布第一篇个人博客/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
 
         </div>
       </header>
@@ -331,9 +317,7 @@
           
     
   <div class="comments">
-    <div id="disqus_thread">
-      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
-    </div>
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81MTU4MC8yODA2MQ=="></div>
   </div>
   
 
@@ -493,34 +477,19 @@
   
 
 <script>
-  function loadCount() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://hacken.disqus.com/count.js';
-    s.id = 'dsq-count-scr';
-    (d.head || d.body).appendChild(s);
-  }
-  // defer loading until the whole page loading is completed
-  window.addEventListener('load', loadCount, false);
-</script>
-<script>
-  var disqus_config = function() {
-    this.page.url = "http://example.com/2020/09/18/%E5%8F%91%E5%B8%83%E7%AC%AC%E4%B8%80%E7%AF%87%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/";
-    this.page.identifier = "2020/09/18/发布第一篇个人博客/";
-    this.page.title = "Java学习笔记";
-    };
-  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
-    if (window.DISQUS) {
-      DISQUS.reset({
-        reload: true,
-        config: disqus_config
-      });
-    } else {
-      var d = document, s = d.createElement('script');
-      s.src = 'https://hacken.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', '' + +new Date());
-      (d.head || d.body).appendChild(s);
-    }
-  });
+NexT.utils.loadComments(document.querySelector('#lv-container'), () => {
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+});
 </script>
 
 </body>
