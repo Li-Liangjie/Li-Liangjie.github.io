@@ -28,7 +28,7 @@
 <meta property="og:description" content="我从2019年的2月开始准备考研。 每年的6、7月份，也就是暑假，被称为考研的”黄金时期”，而我却在别人都在努力学习的时候回家去兼职教书，直接导致了9月开学后我和别人在知识掌握程度上的巨大差距，我很害怕，尤其是我并不擅长的考研数学。 可是9月份当我沉下心去学习的时候，我却发现我在家教书的两个月时间内，逐渐发现了 输出 的重要性。 为什么这么讲？我暑假兼职的是数学老师，很惭愧的说，我自己当年学习高中">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-09-19T17:03:09.220Z">
-<meta property="article:modified_time" content="2020-09-20T08:21:46.154Z">
+<meta property="article:modified_time" content="2020-09-20T13:27:46.441Z">
 <meta property="article:author" content="Li Liangjie">
 <meta property="article:tag" content="-Hexo -Next主题 -github -macOS">
 <meta name="twitter:card" content="summary">
@@ -181,7 +181,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-09-20 01:03:09 / 修改时间：16:21:46" itemprop="dateCreated datePublished" datetime="2020-09-20T01:03:09+08:00">2020-09-20</time>
+              <time title="创建时间：2020-09-20 01:03:09 / 修改时间：21:27:46" itemprop="dateCreated datePublished" datetime="2020-09-20T01:03:09+08:00">2020-09-20</time>
             </span>
 
           <br>
@@ -190,14 +190,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>3k</span>
+              <span>4.6k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
+              <span>4 分钟</span>
             </span>
 
         </div>
@@ -224,7 +224,8 @@
 <a id="more"></a>
 
 <p><strong>注意：</strong></p>
-<p><strong>我的博客是在mac OS 10.15操作系统下进行搭建的，因此，可能和Windows操作系统下的搭建步骤有所不同，请注意区分！</strong></p>
+<p><strong>1、我的博客是在mac OS 10.15操作系统下进行搭建的，因此，可能和Windows操作系统下的搭建步骤有所不同，请注意区分！</strong></p>
+<p><strong>2、我的博客的配置以及各种参数的设置，主要是在集成编译软件IDEA（ultimate版）下完成的（当然也可以借助命令行实现相关配置和参数的设置），因此，需要在电脑上<font color = red>预装IDEA（ultimate版）</font>.</strong></p>
 <h1 id="Hexo是什么？"><a href="#Hexo是什么？" class="headerlink" title="Hexo是什么？"></a>Hexo是什么？</h1><p>Hexo是一个框架，我们可以利用Hexo框架进行我们博客的搭建。</p>
 <blockquote>
 <p>Hexo最初是由Tommy Chen在2012年创建和维护的。自那时以来，它已经帮助成千上万的人建立了他们梦想的网站/博客。</p>
@@ -232,7 +233,7 @@
 <h1 id="搭建个人博客的两个步骤"><a href="#搭建个人博客的两个步骤" class="headerlink" title="搭建个人博客的两个步骤"></a>搭建个人博客的两个步骤</h1><p>大体上讲，搭建自己的博客可以分为两个步骤</p>
 <pre><code>1、在本地搭建博客------------------------------&gt;你的博客只能在你的电脑上查看；
 2、将博客部署至Github或者Coding分配给你的域名上---&gt;你的博客可以在任何地方通过分配的域名进行访问.</code></pre>
-<h2 id="第一个步骤：在本地搭建自己的博客"><a href="#第一个步骤：在本地搭建自己的博客" class="headerlink" title="第一个步骤：在本地搭建自己的博客"></a>第一个步骤：在本地搭建自己的博客</h2><blockquote>
+<h2 id="第一个步骤：在本地搭建博客"><a href="#第一个步骤：在本地搭建博客" class="headerlink" title="第一个步骤：在本地搭建博客"></a>第一个步骤：在本地搭建博客</h2><blockquote>
 <p><strong>参考：</strong> <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/114195340">https://zhuanlan.zhihu.com/p/114195340</a></p>
 </blockquote>
 <h3 id="step1：安装Node-js"><a href="#step1：安装Node-js" class="headerlink" title="step1：安装Node.js"></a>step1：安装Node.js</h3><p>打开终端输入：<code>brew install node</code></p>
@@ -301,13 +302,42 @@
 
 <p><strong>关于一些hexo的常用的命令</strong></p>
 <p><code>hexo clean</code> 这个 <strong>不会</strong> 删除你的hexo博客， <strong>个人理解</strong> 是帮你清除一下”缓存”（表述不一定准确）之类的，重新布置了你的博客之后可以先clean一下，可以解决大部分的 <strong>修改博客布置不生效</strong> 的问题；</p>
-<p><code>hexo -g</code>，是<code>hexo generate</code>的缩写， <strong>个人理解</strong> 是相当于让你的博客的布置生效；</p>
-<p><code>hexo -s</code>，是<code>hexo server</code>的缩写， <strong>个人理解</strong> 是相当让你的博客开启 <strong>本地运行</strong> ，你可以通过localhost:4000本地访问你的博客。</p>
-<p><code>hexo -d</code>，是<code>hexo deploy</code>的缩写， <strong>个人理解</strong> 是相当于把你的博客部署至你的域名上，这样你在本地对博客进行的修改就会在域名下生效，别人就可以通过访问你的域名看到你更改后的博客。</p>
+<p><code>hexo g</code>，是<code>hexo generate</code>的缩写， <strong>个人理解</strong> 是相当于让你的博客的布置生效；</p>
+<p><code>hexo s</code>，是<code>hexo server</code>的缩写， <strong>个人理解</strong> 是相当让你的博客开启 <strong>本地运行</strong> ，你可以通过localhost:4000本地访问你的博客。</p>
+<p><code>hexo d</code>，是<code>hexo deploy</code>的缩写， <strong>个人理解</strong> 是相当于把你的博客部署至你的域名上，这样你在本地对博客进行的修改就会在域名下生效，别人就可以通过访问你的域名看到你更改后的博客。</p>
 <hr>
 
 <h3 id="step8：看一看你的博客"><a href="#step8：看一看你的博客" class="headerlink" title="step8：看一看你的博客"></a>step8：看一看你的博客</h3><p>在本地浏览器中输入<code>localhost:4000</code>就可以看到你的博客啦！</p>
-<h3 id="step9：修饰"><a href="#step9：修饰" class="headerlink" title="step9：修饰"></a>step9：修饰</h3>
+<h3 id="step9：修饰"><a href="#step9：修饰" class="headerlink" title="step9：修饰"></a>step9：修饰</h3><h2 id="第二个步骤：将博客部署至Github或者Coding分配给你的域名上"><a href="#第二个步骤：将博客部署至Github或者Coding分配给你的域名上" class="headerlink" title="第二个步骤：将博客部署至Github或者Coding分配给你的域名上"></a>第二个步骤：将博客部署至Github或者Coding分配给你的域名上</h2><p><strong>注意：因为我按照网上的教程，没有成功的将我的博客部署到Coding分配的域名上，因此这里主要谈一谈怎么将网页部署到Github上</strong></p>
+<blockquote>
+<p><strong>参考：</strong> <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/114195340">https://zhuanlan.zhihu.com/p/114195340</a></p>
+</blockquote>
+<p>简单说一下什么叫”部署”， <strong>个人理解</strong> 是将你的网站（就是那个blog文件夹）挂载于某个代码管理平台（如github、coding）上，这个代码平台会为这个文件提供一个绑定的域名，当完成后续步骤的配置后，就可以实现： <strong>你在本地对网站做的修改会以文件的形式同步到代码管理平台，而别人可以通过这个绑定的域名访问你放在代码平台上的文件，在浏览器中显示出来就是你的网站。</strong></p>
+<h3 id="step1：登陆github并注册账号"><a href="#step1：登陆github并注册账号" class="headerlink" title="step1：登陆github并注册账号"></a>step1：登陆github并注册账号</h3><p><a target="_blank" rel="noopener" href="https://github.com/">https://github.com</a></p>
+<blockquote>
+<p>github基本操作见：<a target="_blank" rel="noopener" href="https://blog.csdn.net/xllily_11/article/details/51330252">https://blog.csdn.net/xllily_11/article/details/51330252</a></p>
+</blockquote>
+<h3 id="step2：创建仓库"><a href="#step2：创建仓库" class="headerlink" title="step2：创建仓库"></a>step2：创建仓库</h3><p><strong>仓库名字</strong> 必须设置为 <strong><font color = red>昵称.github.io</font></strong></p>
+<p><strong>权限</strong> 设置为 <strong><font color = red>Pubilc</font></strong></p>
+<p><strong>注意：如果是在github桌面版上创建的仓库，一定要检查一下权限是否是Public！</strong></p>
+<h3 id="step3：安装部署插件"><a href="#step3：安装部署插件" class="headerlink" title="step3：安装部署插件"></a>step3：安装部署插件</h3><p>这个时候如果你还没有退出终端，那么你的网站在本地依然是运行的，你就需要<code>ctrl + c</code>中止网站的本地运行，此时仍然在<code>blog</code>目录下（如果没有，则需要按照前文所说的在终端输入下列命令进入blog文件夹）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd desktop&#x2F;blog</span><br></pre></td></tr></table></figure>
+
+<p><strong><font color = red>确定自己处在blog目录下</font></strong> 后，在终端中输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p><strong>注意：这里很容易出现部署插件包安装不完全的情况，一定要特别留意命令输入后是否有报错信息，如果有，则对照前面<font color="#5f9ea0">Q&amp;A</font>中提到的<font color = red>npm报错解决方案</font>进行处理</strong> </p>
+<h3 id="step4：更改站点配置文件-config-yml"><a href="#step4：更改站点配置文件-config-yml" class="headerlink" title="step4：更改站点配置文件 _config.yml"></a>step4：更改站点配置文件 _config.yml</h3><blockquote>
+<p>在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。为了描述方便，在以下说明中，将前者称为 <strong>站点配置文件</strong> ， 后者称为 <strong>主题配置文件</strong>.</p>
+</blockquote>
+<p>可以通过命令行形式更改站点配置文件，我是通过 <strong>打开IDEA软件–&gt;打开project–&gt;选中blog文件夹</strong> <strong>通过IDEA</strong> 更改博客各种设置的。</p>
+<p>用IDEA打开<code>blog</code>文件夹后，我们可以在<code>项目blog</code>下发现一个名为<code>_config.yml</code>的文件，双击打开文件，使用<code>command + f</code>打开搜索功能，搜索<code>deploy</code>，定位到以下内容并修改如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#Deployment</span><br><span class="line">##Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;你的github昵称&#x2F;你的项目名称（实际上由于前文的设置，这就是你的github昵称）.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<h3 id="step5：回到命令行部署到远端"><a href="#step5：回到命令行部署到远端" class="headerlink" title="step5：回到命令行部署到远端"></a>step5：回到命令行部署到远端</h3><p>在终端输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>此时在终端里面会有提示信息让你输入你的github密码，输入就好。</p>
+<h3 id="step6：大功告成，从远端看看你的博客吧！"><a href="#step6：大功告成，从远端看看你的博客吧！" class="headerlink" title="step6：大功告成，从远端看看你的博客吧！"></a>step6：大功告成，从远端看看你的博客吧！</h3><p>在浏览器输入网址<code>(你的github昵称）.github.io</code></p>
+<p><strong>注意：这一步可能需要打开翻墙软件才能访问</strong></p>
+
     </div>
 
     
@@ -392,7 +422,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">Hexo是什么？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%AD%A5%E9%AA%A4"><span class="nav-number">2.</span> <span class="nav-text">搭建个人博客的两个步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%AD%A5%E9%AA%A4%EF%BC%9A%E5%9C%A8%E6%9C%AC%E5%9C%B0%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2"><span class="nav-number">2.1.</span> <span class="nav-text">第一个步骤：在本地搭建自己的博客</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#step1%EF%BC%9A%E5%AE%89%E8%A3%85Node-js"><span class="nav-number">2.1.1.</span> <span class="nav-text">step1：安装Node.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step2%EF%BC%9A%E5%AE%89%E8%A3%85git"><span class="nav-number">2.1.2.</span> <span class="nav-text">step2：安装git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step3%EF%BC%9A%E5%AE%89%E8%A3%85Hexo"><span class="nav-number">2.1.3.</span> <span class="nav-text">step3：安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step4%EF%BC%9A%E5%9C%A8%E6%A1%8C%E9%9D%A2%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-number">2.1.4.</span> <span class="nav-text">step4：在桌面新建一个文件夹</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step5%EF%BC%9A%E6%89%93%E5%BC%80%E7%BB%88%E7%AB%AF%EF%BC%8C%E8%BE%93%E5%85%A5cd-desktop-blog"><span class="nav-number">2.1.5.</span> <span class="nav-text">step5：打开终端，输入cd desktop&#x2F;blog</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step6%EF%BC%9A%E8%BF%9B%E8%A1%8C%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-number">2.1.6.</span> <span class="nav-text">step6：进行初始化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step7%EF%BC%9A%E5%90%AF%E5%8A%A8hexo%E5%8D%9A%E5%AE%A2"><span class="nav-number">2.1.7.</span> <span class="nav-text">step7：启动hexo博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step8%EF%BC%9A%E7%9C%8B%E4%B8%80%E7%9C%8B%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2"><span class="nav-number">2.1.8.</span> <span class="nav-text">step8：看一看你的博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step9%EF%BC%9A%E4%BF%AE%E9%A5%B0"><span class="nav-number">2.1.9.</span> <span class="nav-text">step9：修饰</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">Hexo是什么？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%AD%A5%E9%AA%A4"><span class="nav-number">2.</span> <span class="nav-text">搭建个人博客的两个步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%AD%A5%E9%AA%A4%EF%BC%9A%E5%9C%A8%E6%9C%AC%E5%9C%B0%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2"><span class="nav-number">2.1.</span> <span class="nav-text">第一个步骤：在本地搭建博客</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#step1%EF%BC%9A%E5%AE%89%E8%A3%85Node-js"><span class="nav-number">2.1.1.</span> <span class="nav-text">step1：安装Node.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step2%EF%BC%9A%E5%AE%89%E8%A3%85git"><span class="nav-number">2.1.2.</span> <span class="nav-text">step2：安装git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step3%EF%BC%9A%E5%AE%89%E8%A3%85Hexo"><span class="nav-number">2.1.3.</span> <span class="nav-text">step3：安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step4%EF%BC%9A%E5%9C%A8%E6%A1%8C%E9%9D%A2%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-number">2.1.4.</span> <span class="nav-text">step4：在桌面新建一个文件夹</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step5%EF%BC%9A%E6%89%93%E5%BC%80%E7%BB%88%E7%AB%AF%EF%BC%8C%E8%BE%93%E5%85%A5cd-desktop-blog"><span class="nav-number">2.1.5.</span> <span class="nav-text">step5：打开终端，输入cd desktop&#x2F;blog</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step6%EF%BC%9A%E8%BF%9B%E8%A1%8C%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-number">2.1.6.</span> <span class="nav-text">step6：进行初始化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step7%EF%BC%9A%E5%90%AF%E5%8A%A8hexo%E5%8D%9A%E5%AE%A2"><span class="nav-number">2.1.7.</span> <span class="nav-text">step7：启动hexo博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step8%EF%BC%9A%E7%9C%8B%E4%B8%80%E7%9C%8B%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2"><span class="nav-number">2.1.8.</span> <span class="nav-text">step8：看一看你的博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step9%EF%BC%9A%E4%BF%AE%E9%A5%B0"><span class="nav-number">2.1.9.</span> <span class="nav-text">step9：修饰</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E4%B8%AA%E6%AD%A5%E9%AA%A4%EF%BC%9A%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E8%87%B3Github%E6%88%96%E8%80%85Coding%E5%88%86%E9%85%8D%E7%BB%99%E4%BD%A0%E7%9A%84%E5%9F%9F%E5%90%8D%E4%B8%8A"><span class="nav-number">2.2.</span> <span class="nav-text">第二个步骤：将博客部署至Github或者Coding分配给你的域名上</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#step1%EF%BC%9A%E7%99%BB%E9%99%86github%E5%B9%B6%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7"><span class="nav-number">2.2.1.</span> <span class="nav-text">step1：登陆github并注册账号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step2%EF%BC%9A%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93"><span class="nav-number">2.2.2.</span> <span class="nav-text">step2：创建仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step3%EF%BC%9A%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E6%8F%92%E4%BB%B6"><span class="nav-number">2.2.3.</span> <span class="nav-text">step3：安装部署插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step4%EF%BC%9A%E6%9B%B4%E6%94%B9%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-config-yml"><span class="nav-number">2.2.4.</span> <span class="nav-text">step4：更改站点配置文件 _config.yml</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step5%EF%BC%9A%E5%9B%9E%E5%88%B0%E5%91%BD%E4%BB%A4%E8%A1%8C%E9%83%A8%E7%BD%B2%E5%88%B0%E8%BF%9C%E7%AB%AF"><span class="nav-number">2.2.5.</span> <span class="nav-text">step5：回到命令行部署到远端</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#step6%EF%BC%9A%E5%A4%A7%E5%8A%9F%E5%91%8A%E6%88%90%EF%BC%8C%E4%BB%8E%E8%BF%9C%E7%AB%AF%E7%9C%8B%E7%9C%8B%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%90%A7%EF%BC%81"><span class="nav-number">2.2.6.</span> <span class="nav-text">step6：大功告成，从远端看看你的博客吧！</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -450,13 +480,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">9k</span>
+    <span title="站点总字数">11k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">9 分钟</span>
+    <span title="站点阅读时长">10 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
