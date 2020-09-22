@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://liliangjie.online/2020/09/20/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91/</loc>
+    <loc>http://liliangjie.online/2020/09/18/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2020-09-20</lastmod>
+    <lastmod>2020-09-22</lastmod>
     
   </url>
   
   <url>
-    <loc>http://liliangjie.online/2020/09/18/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://liliangjie.online/2020/09/20/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91/</loc>
     
-    <lastmod>2020-09-19</lastmod>
+    <lastmod>2020-09-20</lastmod>
     
   </url>
   
@@ -32,7 +32,7 @@
 
   <url>
     <loc>http://liliangjie.online/</loc>
-    <lastmod>2020-09-20</lastmod>
+    <lastmod>2020-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -40,14 +40,14 @@
   
   <url>
     <loc>http://liliangjie.online/tags/Hexo-Next%E4%B8%BB%E9%A2%98-github-macOS/</loc>
-    <lastmod>2020-09-20</lastmod>
+    <lastmod>2020-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://liliangjie.online/tags/Java/</loc>
-    <lastmod>2020-09-20</lastmod>
+    <lastmod>2020-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
